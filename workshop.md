@@ -40,7 +40,7 @@ selections:
 
 ## Find a rule you are interested in
 
-There is over a thousand of unique rules in ComplianceAsCode/content - it may be that if you are implementing your custom security policy, the rule is already in there.
+There are over a thousand unique rules in ComplianceAsCode/content - it may be that if you are implementing your custom security policy, the rule is already in there.
 Here are some tips that could help you not to reinvent the wheel:
 
 * Grouping: Rules are organized in a tree hierarchy that can lead you towards a rule you want to use.
