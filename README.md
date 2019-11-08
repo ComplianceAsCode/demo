@@ -29,7 +29,7 @@ The command above will create the VM in the user instance of libvirtd.\
 After instalation finishes you will have to reconfigure the NIC of the machine to be able to SSH into it.\
 Check what is the name of the virtual bridge interface provided by libvirt, `ip addr | grep virbr`.\
 It will very likely be `virbr0`, edit the hardware settings of your VM:
--  change the source of NIC to "Specify sahred device name", and 
+-  change the source of NIC to "Specify shared device name", and 
 - set "Bridge name" to your virtual bridge interface (e.g., `virbr0`).
 
 ![Edit VM NIC](/images/libvirt_nic_bridge.png)
